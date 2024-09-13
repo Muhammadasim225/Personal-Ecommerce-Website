@@ -1,0 +1,294 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
+  
+  .slick-prev, .slick-next {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .slick-prev {
+    left: -25px;
+  }
+  
+  .slick-next {
+    right: -25px;
+  }
+  html{
+    scroll-behavior: smooth;
+
+  }
+
+
+  html, body {
+    /* overflow: hidden; */
+    height: 100%;
+    padding-top: 2rem;
+  }
+  /* App.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    overflow-x:hidden;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
+  .loader{
+    width:10px;
+    height: 10px;
+    margin:40px auto;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .slick-prev, .slick-next {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .slick-prev {
+    left: -25px;
+  }
+  
+  .slick-next {
+    right: -25px;
+  }
+
+
+/* React Popper
+ */
+  
+
+
+ .popper-menu {
+  
+  background: linear-gradient(to bottom right, #827D85, #31293B);
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 10;
+  color:white;
+  font-weight:300;
+}
+
+.popper-arrow {
+  width: 10px;
+  height: 10px;
+  background: white;
+
+  /* position: absolute; */
+  transform: rotate(45deg);
+  box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.1);
+}
+.sticket.scrolling {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.944);
+  color:rgb(0, 0, 0);
+  /* opacity:0.5; */
+  position: fixed;
+
+
+
+  /* Smooth transition */
+}
+.foot{
+  position:sticky;
+  bottom:0;
+  left:0;
+  width: 100%;
+  z-index: 1000;
+
+
+
+}
+
+
+.sticket.scrolled {
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+  background-color: rgba(255, 255, 255, 0.944);
+  color:rgb(0, 0, 0);
+  height: 6rem;
+}
+
+
+
+/* .sticket .steady{
+  height:3rem;
+  background: #b41515;
+
+
+} */
+
+.menu-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.menu-item:hover {
+   color:black;
+}
+
+.menu-item:hover {
+  background: #f0f0f0;
+}
+.hemm:hover{
+  cursor:pointer;
+
+}
+.mem:hover{
+  cursor:pointer;
+}
+.product-card {
+  transition: transform 0.3s ease;
+  cursor:pointer;
+}
+
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+.nav-menu a{
+  /* transition: transform 0.3s ease; */
+  cursor:pointer;
+  
+
+}
+.nav-menu a:hover{
+  /* transform: scale(1.05); */
+
+
+}
+.backdrop{
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: #6e6c6c62;
+  z-index:2000;
+  /* filter:blur(5px) */
+  backdrop-filter: blur(5px);
+
+}
+.body-no-scroll {
+  overflow: hidden;
+}
+
+
+.kheer{
+  transition: all 0.5s ease;
+}
+.kheer:hover{
+  background-color: white;
+  color:black;
+  border:1px solid black;
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+.nav-menu button {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-menu button:hover {
+  transform: scale(1.05);
+}
+
+.bgg{
+  position:relative;
+  left:5px;
+  top:70px;
+}
+
+
+.product-card img {
+  outline: none;
+}
+
+.product-card a:focus {
+  outline: none;
+}
+
+.product-card img:focus {
+  outline: none;
+  border: none; /* Remove any unwanted borders */
+}
+
+
+.custom-checkbox1 {
+  appearance: none;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  border: 1px solid #cccccc;
+  background-color: #1d72b8;
+  position: relative;
+  top:10px;
+  cursor: pointer;
+  outline: none;
+  padding:10px;
+}
+.custom-checkbox2{
+  appearance: none;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  border: 1px solid #cccccc;
+  background-color: #ff5b02;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  top:10px;
+
+
+}
+
+.custom-checkbox1:checked {
+  /* background-color: #1d72b8; Change this to any desired color */
+
+  border-color: #1d72b8;
+
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M6.173 11.26L2.112 7.205l1.414-1.414L6.173 8.431l6.301-6.302 1.415 1.414-7.715 7.717z"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.custom-checkbox2:checked {
+  /* background-color: #1d72b8; Change this to any desired color */
+  border-color: #1d72b8;
+
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M6.173 11.26L2.112 7.205l1.414-1.414L6.173 8.431l6.301-6.302 1.415 1.414-7.715 7.717z"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: center;
+}

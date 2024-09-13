@@ -1,0 +1,36 @@
+# Node.js modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
+
+
+tv0NkNejPSW1rchn
+
+muhammadasim4927
+
+
+mongodb+srv://muhammadasim4927:tv0NkNejPSW1rchn@ecommerce-app-cluster.kiwmd.mongodb.net/
+
+
+
+
+
+For connection with compass:
+mongodb+srv://muhammadasim4927:<db_password>@ecommerce-app-cluster.kiwmd.mongodb.net/
+
+
+
+
+
+Fro connection string:
+
+mongodb+srv://muhammadasim4927:tv0NkNejPSW1rchn
+@ecommerce-app-cluster.kiwmd.mongodb.net/?retryWrites=true&w=majority&appName=ecommerce-app-cluster

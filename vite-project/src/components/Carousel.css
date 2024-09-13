@@ -1,0 +1,24 @@
+.carousel-container {
+    width: 60%; /* Adjust the width to fit your layout */
+    height: 400px; /* Set a fixed height for the carousel */
+    position: relative;
+    margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-slide img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Make the image cover the container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+.sidebar {
+    width: 20%; /* Adjust width as needed */
+    padding: 10px;
+}
+
+.carousel-container {
+    position: relative;
+    left:10px;
+    top:50px;
+    width: 60%;
+}
